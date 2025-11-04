@@ -1,0 +1,9 @@
+streamlit
+streamlit-webrtc
+opencv-python-headless
+pyzbar
+qrcode
+pillow
+reportlab
+pandas
+numpy

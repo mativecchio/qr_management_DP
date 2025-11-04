@@ -1,0 +1,621 @@
+2025-11-04 23:36:07.483 Filtered 56 packages down to 2 candidates for component scanning
+2025-11-04 23:36:07.483 Scanning 2 candidate packages for component manifests using 2 worker threads
+2025-11-04 23:36:07.500 Found 0 component manifests total
+2025-11-04 23:36:07.501 No asset roots to watch
+2025-11-04 23:36:07.501 File watching not started
+2025-11-04 23:36:07.501 Starting new event loop for server
+2025-11-04 23:36:07.501 Starting server...
+2025-11-04 23:36:07.501 Serving static content from /Users/matiasvecchio/Desktop/entrada_qr/venv/lib/python3.10/site-packages/streamlit/static
+2025-11-04 23:36:07.503 Server started on port 8501
+2025-11-04 23:36:07.504 Runtime state: RuntimeState.INITIAL -> RuntimeState.NO_SESSIONS_CONNECTED
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+2025-11-04 23:36:07.505 Setting up signal handler
+2025-11-04 23:36:08.080 AppSession initialized (id=8f33e302-a90d-427f-8040-354a142bffd0)
+2025-11-04 23:36:08.080 Created new session for client 4409077776. Session ID: 8f33e302-a90d-427f-8040-354a142bffd0
+2025-11-04 23:36:08.080 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2025-11-04 23:36:08.092 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://0.0.0.0:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:36:08.093 Beginning script thread
+2025-11-04 23:36:08.093 Running script RerunData(widget_states=, context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://0.0.0.0:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:36:08.093 Disconnecting files for session with ID 8f33e302-a90d-427f-8040-354a142bffd0
+2025-11-04 23:36:08.093 Sessions still active: dict_keys([])
+2025-11-04 23:36:08.093 Files: 0; Sessions with files: 0
+2025-11-04 23:36:08.396 Registered component 'streamlit_webrtc.component.webrtc_streamer': /Users/matiasvecchio/Desktop/entrada_qr/venv/lib/python3.10/site-packages/streamlit_webrtc/frontend/dist
+2025-11-04 23:36:08.920 Creating new DataCache (key=7f21936b14e796804471836212970080, persist=None, max_entries=None, ttl=None)
+2025-11-04 23:36:08.920 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:08.920 Memory cache MISS: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:08.921 Memory cache MISS: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:09.020 AppSession initialized (id=24c56fda-2760-4af5-8928-99d435e930d1)
+2025-11-04 23:36:09.020 Created new session for client 5762968368. Session ID: 24c56fda-2760-4af5-8928-99d435e930d1
+2025-11-04 23:36:09.020 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2025-11-04 23:36:09.048 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+      json_value: "{\"playing\":false,\"sdpOffer\":\"\",\"iceCandidates\":{}}"
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://0.0.0.0:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:36:09.048 Beginning script thread
+2025-11-04 23:36:09.048 Running script RerunData(widget_states=widgets {
+  id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+  json_value: "{\"playing\":false,\"sdpOffer\":\"\",\"iceCandidates\":{}}"
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://0.0.0.0:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:36:09.048 Disconnecting files for session with ID 8f33e302-a90d-427f-8040-354a142bffd0
+2025-11-04 23:36:09.048 Sessions still active: dict_keys([])
+2025-11-04 23:36:09.048 Files: 0; Sessions with files: 0
+2025-11-04 23:36:09.051 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:09.051 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:10.929 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.ENQUEUE_FORWARD_MSG
+2025-11-04 23:36:10.930 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2025-11-04 23:36:10.931 Removing orphaned files...
+2025-11-04 23:36:11.003 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SHUTDOWN
+2025-11-04 23:36:11.065 Removing orphaned files...
+2025-11-04 23:36:40.528 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.NO_SESSIONS_CONNECTED
+2025-11-04 23:36:43.023 AppSession initialized (id=b0c5fd8b-9bbf-4503-8e8f-d23c8db008aa)
+2025-11-04 23:36:43.023 Created new session for client 5762967552. Session ID: b0c5fd8b-9bbf-4503-8e8f-d23c8db008aa
+2025-11-04 23:36:43.023 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2025-11-04 23:36:54.878 AppSession initialized (id=c7748145-5b5f-4485-a025-100738588a0b)
+2025-11-04 23:36:54.879 Created new session for client 5763046736. Session ID: c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:36:54.879 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2025-11-04 23:36:54.889 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:36:54.892 Beginning script thread
+2025-11-04 23:36:54.892 Running script RerunData(widget_states=, context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:36:54.893 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:36:54.893 Sessions still active: dict_keys([])
+2025-11-04 23:36:54.893 Files: 0; Sessions with files: 0
+2025-11-04 23:36:54.932 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:54.932 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:55.056 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+      json_value: "{\"playing\":false,\"sdpOffer\":\"\",\"iceCandidates\":{}}"
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:36:55.056 Beginning script thread
+2025-11-04 23:36:55.056 Running script RerunData(widget_states=widgets {
+  id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+  json_value: "{\"playing\":false,\"sdpOffer\":\"\",\"iceCandidates\":{}}"
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:36:55.056 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:36:55.056 Sessions still active: dict_keys([])
+2025-11-04 23:36:55.056 Files: 0; Sessions with files: 0
+2025-11-04 23:36:55.059 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:55.059 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:56.939 Removing orphaned files...
+2025-11-04 23:36:56.939 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.ENQUEUE_FORWARD_MSG
+2025-11-04 23:36:57.002 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2025-11-04 23:36:57.002 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SHUTDOWN
+2025-11-04 23:36:57.070 Removing orphaned files...
+2025-11-04 23:36:59.796 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+      json_value: "{\"playing\":false,\"sdpOffer\":{\"type\":\"offer\",\"sdp\":\"v=0\\r\\no=- 1916652574435054874 2 IN IP4 127.0.0.1\\r\\ns=-\\r\\nt=0 0\\r\\na=group:BUNDLE 0\\r\\na=extmap-allow-mixed\\r\\na=msid-semantic: WMS c64f447e-0e97-4ae4-b3be-4ddf66f99419\\r\\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 103 104 107 108 109 114 115 116 117 118 39 40 45 46 98 99 100 101 119 120 49 50 123 124 125\\r\\nc=IN IP4 0.0.0.0\\r\\na=rtcp:9 IN IP4 0.0.0.0\\r\\na=ice-ufrag:trRl\\r\\na=ice-pwd:PcOpSs68LUgHIc5hshpCVzvG\\r\\na=ice-options:trickle\\r\\na=fingerprint:sha-256 3A:A9:D5:24:EA:89:2A:A5:2F:E2:A5:D6:53:E7:F3:4E:84:76:42:FC:D8:C7:34:E2:53:5C:A1:5F:6E:D6:FB:CE\\r\\na=setup:actpass\\r\\na=mid:0\\r\\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\\r\\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\\r\\na=extmap:3 urn:3gpp:video-orientation\\r\\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\\r\\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\\r\\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\\r\\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\\r\\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\\r\\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\\r\\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\\r\\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\\r\\na=sendrecv\\r\\na=msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=rtcp-mux\\r\\na=rtcp-rsize\\r\\na=rtpmap:96 VP8/90000\\r\\na=rtcp-fb:96 goog-remb\\r\\na=rtcp-fb:96 transport-cc\\r\\na=rtcp-fb:96 ccm fir\\r\\na=rtcp-fb:96 nack\\r\\na=rtcp-fb:96 nack pli\\r\\na=rtpmap:97 rtx/90000\\r\\na=fmtp:97 apt=96\\r\\na=rtpmap:103 H264/90000\\r\\na=rtcp-fb:103 goog-remb\\r\\na=rtcp-fb:103 transport-cc\\r\\na=rtcp-fb:103 ccm fir\\r\\na=rtcp-fb:103 nack\\r\\na=rtcp-fb:103 nack pli\\r\\na=fmtp:103 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\\r\\na=rtpmap:104 rtx/90000\\r\\na=fmtp:104 apt=103\\r\\na=rtpmap:107 H264/90000\\r\\na=rtcp-fb:107 goog-remb\\r\\na=rtcp-fb:107 transport-cc\\r\\na=rtcp-fb:107 ccm fir\\r\\na=rtcp-fb:107 nack\\r\\na=rtcp-fb:107 nack pli\\r\\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\\r\\na=rtpmap:108 rtx/90000\\r\\na=fmtp:108 apt=107\\r\\na=rtpmap:109 H264/90000\\r\\na=rtcp-fb:109 goog-remb\\r\\na=rtcp-fb:109 transport-cc\\r\\na=rtcp-fb:109 ccm fir\\r\\na=rtcp-fb:109 nack\\r\\na=rtcp-fb:109 nack pli\\r\\na=fmtp:109 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\\r\\na=rtpmap:114 rtx/90000\\r\\na=fmtp:114 apt=109\\r\\na=rtpmap:115 H264/90000\\r\\na=rtcp-fb:115 goog-remb\\r\\na=rtcp-fb:115 transport-cc\\r\\na=rtcp-fb:115 ccm fir\\r\\na=rtcp-fb:115 nack\\r\\na=rtcp-fb:115 nack pli\\r\\na=fmtp:115 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\\r\\na=rtpmap:116 rtx/90000\\r\\na=fmtp:116 apt=115\\r\\na=rtpmap:117 H264/90000\\r\\na=rtcp-fb:117 goog-remb\\r\\na=rtcp-fb:117 transport-cc\\r\\na=rtcp-fb:117 ccm fir\\r\\na=rtcp-fb:117 nack\\r\\na=rtcp-fb:117 nack pli\\r\\na=fmtp:117 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f\\r\\na=rtpmap:118 rtx/90000\\r\\na=fmtp:118 apt=117\\r\\na=rtpmap:39 H264/90000\\r\\na=rtcp-fb:39 goog-remb\\r\\na=rtcp-fb:39 transport-cc\\r\\na=rtcp-fb:39 ccm fir\\r\\na=rtcp-fb:39 nack\\r\\na=rtcp-fb:39 nack pli\\r\\na=fmtp:39 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=4d001f\\r\\na=rtpmap:40 rtx/90000\\r\\na=fmtp:40 apt=39\\r\\na=rtpmap:45 AV1/90000\\r\\na=rtcp-fb:45 goog-remb\\r\\na=rtcp-fb:45 transport-cc\\r\\na=rtcp-fb:45 ccm fir\\r\\na=rtcp-fb:45 nack\\r\\na=rtcp-fb:45 nack pli\\r\\na=fmtp:45 level-idx=5;profile=0;tier=0\\r\\na=rtpmap:46 rtx/90000\\r\\na=fmtp:46 apt=45\\r\\na=rtpmap:98 VP9/90000\\r\\na=rtcp-fb:98 goog-remb\\r\\na=rtcp-fb:98 transport-cc\\r\\na=rtcp-fb:98 ccm fir\\r\\na=rtcp-fb:98 nack\\r\\na=rtcp-fb:98 nack pli\\r\\na=fmtp:98 profile-id=0\\r\\na=rtpmap:99 rtx/90000\\r\\na=fmtp:99 apt=98\\r\\na=rtpmap:100 VP9/90000\\r\\na=rtcp-fb:100 goog-remb\\r\\na=rtcp-fb:100 transport-cc\\r\\na=rtcp-fb:100 ccm fir\\r\\na=rtcp-fb:100 nack\\r\\na=rtcp-fb:100 nack pli\\r\\na=fmtp:100 profile-id=2\\r\\na=rtpmap:101 rtx/90000\\r\\na=fmtp:101 apt=100\\r\\na=rtpmap:119 H264/90000\\r\\na=rtcp-fb:119 goog-remb\\r\\na=rtcp-fb:119 transport-cc\\r\\na=rtcp-fb:119 ccm fir\\r\\na=rtcp-fb:119 nack\\r\\na=rtcp-fb:119 nack pli\\r\\na=fmtp:119 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f\\r\\na=rtpmap:120 rtx/90000\\r\\na=fmtp:120 apt=119\\r\\na=rtpmap:49 H265/90000\\r\\na=rtcp-fb:49 goog-remb\\r\\na=rtcp-fb:49 transport-cc\\r\\na=rtcp-fb:49 ccm fir\\r\\na=rtcp-fb:49 nack\\r\\na=rtcp-fb:49 nack pli\\r\\na=fmtp:49 level-id=180;profile-id=1;tier-flag=0;tx-mode=SRST\\r\\na=rtpmap:50 rtx/90000\\r\\na=fmtp:50 apt=49\\r\\na=rtpmap:123 red/90000\\r\\na=rtpmap:124 rtx/90000\\r\\na=fmtp:124 apt=123\\r\\na=rtpmap:125 ulpfec/90000\\r\\na=ssrc-group:FID 4052515602 575228366\\r\\na=ssrc:4052515602 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:4052515602 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=ssrc:575228366 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:575228366 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\n\"},\"iceCandidates\":{}}"
+    }
+    widgets {
+      id: "$$ID-eccf08923f132160d9216d336f756208-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:36:59.800 Beginning script thread
+2025-11-04 23:36:59.800 Running script RerunData(widget_states=widgets {
+  id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+  json_value: "{\"playing\":false,\"sdpOffer\":{\"type\":\"offer\",\"sdp\":\"v=0\\r\\no=- 1916652574435054874 2 IN IP4 127.0.0.1\\r\\ns=-\\r\\nt=0 0\\r\\na=group:BUNDLE 0\\r\\na=extmap-allow-mixed\\r\\na=msid-semantic: WMS c64f447e-0e97-4ae4-b3be-4ddf66f99419\\r\\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 103 104 107 108 109 114 115 116 117 118 39 40 45 46 98 99 100 101 119 120 49 50 123 124 125\\r\\nc=IN IP4 0.0.0.0\\r\\na=rtcp:9 IN IP4 0.0.0.0\\r\\na=ice-ufrag:trRl\\r\\na=ice-pwd:PcOpSs68LUgHIc5hshpCVzvG\\r\\na=ice-options:trickle\\r\\na=fingerprint:sha-256 3A:A9:D5:24:EA:89:2A:A5:2F:E2:A5:D6:53:E7:F3:4E:84:76:42:FC:D8:C7:34:E2:53:5C:A1:5F:6E:D6:FB:CE\\r\\na=setup:actpass\\r\\na=mid:0\\r\\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\\r\\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\\r\\na=extmap:3 urn:3gpp:video-orientation\\r\\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\\r\\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\\r\\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\\r\\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\\r\\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\\r\\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\\r\\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\\r\\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\\r\\na=sendrecv\\r\\na=msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=rtcp-mux\\r\\na=rtcp-rsize\\r\\na=rtpmap:96 VP8/90000\\r\\na=rtcp-fb:96 goog-remb\\r\\na=rtcp-fb:96 transport-cc\\r\\na=rtcp-fb:96 ccm fir\\r\\na=rtcp-fb:96 nack\\r\\na=rtcp-fb:96 nack pli\\r\\na=rtpmap:97 rtx/90000\\r\\na=fmtp:97 apt=96\\r\\na=rtpmap:103 H264/90000\\r\\na=rtcp-fb:103 goog-remb\\r\\na=rtcp-fb:103 transport-cc\\r\\na=rtcp-fb:103 ccm fir\\r\\na=rtcp-fb:103 nack\\r\\na=rtcp-fb:103 nack pli\\r\\na=fmtp:103 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\\r\\na=rtpmap:104 rtx/90000\\r\\na=fmtp:104 apt=103\\r\\na=rtpmap:107 H264/90000\\r\\na=rtcp-fb:107 goog-remb\\r\\na=rtcp-fb:107 transport-cc\\r\\na=rtcp-fb:107 ccm fir\\r\\na=rtcp-fb:107 nack\\r\\na=rtcp-fb:107 nack pli\\r\\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\\r\\na=rtpmap:108 rtx/90000\\r\\na=fmtp:108 apt=107\\r\\na=rtpmap:109 H264/90000\\r\\na=rtcp-fb:109 goog-remb\\r\\na=rtcp-fb:109 transport-cc\\r\\na=rtcp-fb:109 ccm fir\\r\\na=rtcp-fb:109 nack\\r\\na=rtcp-fb:109 nack pli\\r\\na=fmtp:109 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\\r\\na=rtpmap:114 rtx/90000\\r\\na=fmtp:114 apt=109\\r\\na=rtpmap:115 H264/90000\\r\\na=rtcp-fb:115 goog-remb\\r\\na=rtcp-fb:115 transport-cc\\r\\na=rtcp-fb:115 ccm fir\\r\\na=rtcp-fb:115 nack\\r\\na=rtcp-fb:115 nack pli\\r\\na=fmtp:115 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\\r\\na=rtpmap:116 rtx/90000\\r\\na=fmtp:116 apt=115\\r\\na=rtpmap:117 H264/90000\\r\\na=rtcp-fb:117 goog-remb\\r\\na=rtcp-fb:117 transport-cc\\r\\na=rtcp-fb:117 ccm fir\\r\\na=rtcp-fb:117 nack\\r\\na=rtcp-fb:117 nack pli\\r\\na=fmtp:117 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f\\r\\na=rtpmap:118 rtx/90000\\r\\na=fmtp:118 apt=117\\r\\na=rtpmap:39 H264/90000\\r\\na=rtcp-fb:39 goog-remb\\r\\na=rtcp-fb:39 transport-cc\\r\\na=rtcp-fb:39 ccm fir\\r\\na=rtcp-fb:39 nack\\r\\na=rtcp-fb:39 nack pli\\r\\na=fmtp:39 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=4d001f\\r\\na=rtpmap:40 rtx/90000\\r\\na=fmtp:40 apt=39\\r\\na=rtpmap:45 AV1/90000\\r\\na=rtcp-fb:45 goog-remb\\r\\na=rtcp-fb:45 transport-cc\\r\\na=rtcp-fb:45 ccm fir\\r\\na=rtcp-fb:45 nack\\r\\na=rtcp-fb:45 nack pli\\r\\na=fmtp:45 level-idx=5;profile=0;tier=0\\r\\na=rtpmap:46 rtx/90000\\r\\na=fmtp:46 apt=45\\r\\na=rtpmap:98 VP9/90000\\r\\na=rtcp-fb:98 goog-remb\\r\\na=rtcp-fb:98 transport-cc\\r\\na=rtcp-fb:98 ccm fir\\r\\na=rtcp-fb:98 nack\\r\\na=rtcp-fb:98 nack pli\\r\\na=fmtp:98 profile-id=0\\r\\na=rtpmap:99 rtx/90000\\r\\na=fmtp:99 apt=98\\r\\na=rtpmap:100 VP9/90000\\r\\na=rtcp-fb:100 goog-remb\\r\\na=rtcp-fb:100 transport-cc\\r\\na=rtcp-fb:100 ccm fir\\r\\na=rtcp-fb:100 nack\\r\\na=rtcp-fb:100 nack pli\\r\\na=fmtp:100 profile-id=2\\r\\na=rtpmap:101 rtx/90000\\r\\na=fmtp:101 apt=100\\r\\na=rtpmap:119 H264/90000\\r\\na=rtcp-fb:119 goog-remb\\r\\na=rtcp-fb:119 transport-cc\\r\\na=rtcp-fb:119 ccm fir\\r\\na=rtcp-fb:119 nack\\r\\na=rtcp-fb:119 nack pli\\r\\na=fmtp:119 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f\\r\\na=rtpmap:120 rtx/90000\\r\\na=fmtp:120 apt=119\\r\\na=rtpmap:49 H265/90000\\r\\na=rtcp-fb:49 goog-remb\\r\\na=rtcp-fb:49 transport-cc\\r\\na=rtcp-fb:49 ccm fir\\r\\na=rtcp-fb:49 nack\\r\\na=rtcp-fb:49 nack pli\\r\\na=fmtp:49 level-id=180;profile-id=1;tier-flag=0;tx-mode=SRST\\r\\na=rtpmap:50 rtx/90000\\r\\na=fmtp:50 apt=49\\r\\na=rtpmap:123 red/90000\\r\\na=rtpmap:124 rtx/90000\\r\\na=fmtp:124 apt=123\\r\\na=rtpmap:125 ulpfec/90000\\r\\na=ssrc-group:FID 4052515602 575228366\\r\\na=ssrc:4052515602 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:4052515602 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=ssrc:575228366 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:575228366 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\n\"},\"iceCandidates\":{}}"
+}
+widgets {
+  id: "$$ID-eccf08923f132160d9216d336f756208-None"
+  file_uploader_state_value {
+  }
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:36:59.801 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+      json_value: "{\"playing\":false,\"sdpOffer\":{\"type\":\"offer\",\"sdp\":\"v=0\\r\\no=- 1916652574435054874 2 IN IP4 127.0.0.1\\r\\ns=-\\r\\nt=0 0\\r\\na=group:BUNDLE 0\\r\\na=extmap-allow-mixed\\r\\na=msid-semantic: WMS c64f447e-0e97-4ae4-b3be-4ddf66f99419\\r\\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 103 104 107 108 109 114 115 116 117 118 39 40 45 46 98 99 100 101 119 120 49 50 123 124 125\\r\\nc=IN IP4 0.0.0.0\\r\\na=rtcp:9 IN IP4 0.0.0.0\\r\\na=ice-ufrag:trRl\\r\\na=ice-pwd:PcOpSs68LUgHIc5hshpCVzvG\\r\\na=ice-options:trickle\\r\\na=fingerprint:sha-256 3A:A9:D5:24:EA:89:2A:A5:2F:E2:A5:D6:53:E7:F3:4E:84:76:42:FC:D8:C7:34:E2:53:5C:A1:5F:6E:D6:FB:CE\\r\\na=setup:actpass\\r\\na=mid:0\\r\\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\\r\\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\\r\\na=extmap:3 urn:3gpp:video-orientation\\r\\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\\r\\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\\r\\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\\r\\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\\r\\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\\r\\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\\r\\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\\r\\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\\r\\na=sendrecv\\r\\na=msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=rtcp-mux\\r\\na=rtcp-rsize\\r\\na=rtpmap:96 VP8/90000\\r\\na=rtcp-fb:96 goog-remb\\r\\na=rtcp-fb:96 transport-cc\\r\\na=rtcp-fb:96 ccm fir\\r\\na=rtcp-fb:96 nack\\r\\na=rtcp-fb:96 nack pli\\r\\na=rtpmap:97 rtx/90000\\r\\na=fmtp:97 apt=96\\r\\na=rtpmap:103 H264/90000\\r\\na=rtcp-fb:103 goog-remb\\r\\na=rtcp-fb:103 transport-cc\\r\\na=rtcp-fb:103 ccm fir\\r\\na=rtcp-fb:103 nack\\r\\na=rtcp-fb:103 nack pli\\r\\na=fmtp:103 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\\r\\na=rtpmap:104 rtx/90000\\r\\na=fmtp:104 apt=103\\r\\na=rtpmap:107 H264/90000\\r\\na=rtcp-fb:107 goog-remb\\r\\na=rtcp-fb:107 transport-cc\\r\\na=rtcp-fb:107 ccm fir\\r\\na=rtcp-fb:107 nack\\r\\na=rtcp-fb:107 nack pli\\r\\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\\r\\na=rtpmap:108 rtx/90000\\r\\na=fmtp:108 apt=107\\r\\na=rtpmap:109 H264/90000\\r\\na=rtcp-fb:109 goog-remb\\r\\na=rtcp-fb:109 transport-cc\\r\\na=rtcp-fb:109 ccm fir\\r\\na=rtcp-fb:109 nack\\r\\na=rtcp-fb:109 nack pli\\r\\na=fmtp:109 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\\r\\na=rtpmap:114 rtx/90000\\r\\na=fmtp:114 apt=109\\r\\na=rtpmap:115 H264/90000\\r\\na=rtcp-fb:115 goog-remb\\r\\na=rtcp-fb:115 transport-cc\\r\\na=rtcp-fb:115 ccm fir\\r\\na=rtcp-fb:115 nack\\r\\na=rtcp-fb:115 nack pli\\r\\na=fmtp:115 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\\r\\na=rtpmap:116 rtx/90000\\r\\na=fmtp:116 apt=115\\r\\na=rtpmap:117 H264/90000\\r\\na=rtcp-fb:117 goog-remb\\r\\na=rtcp-fb:117 transport-cc\\r\\na=rtcp-fb:117 ccm fir\\r\\na=rtcp-fb:117 nack\\r\\na=rtcp-fb:117 nack pli\\r\\na=fmtp:117 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f\\r\\na=rtpmap:118 rtx/90000\\r\\na=fmtp:118 apt=117\\r\\na=rtpmap:39 H264/90000\\r\\na=rtcp-fb:39 goog-remb\\r\\na=rtcp-fb:39 transport-cc\\r\\na=rtcp-fb:39 ccm fir\\r\\na=rtcp-fb:39 nack\\r\\na=rtcp-fb:39 nack pli\\r\\na=fmtp:39 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=4d001f\\r\\na=rtpmap:40 rtx/90000\\r\\na=fmtp:40 apt=39\\r\\na=rtpmap:45 AV1/90000\\r\\na=rtcp-fb:45 goog-remb\\r\\na=rtcp-fb:45 transport-cc\\r\\na=rtcp-fb:45 ccm fir\\r\\na=rtcp-fb:45 nack\\r\\na=rtcp-fb:45 nack pli\\r\\na=fmtp:45 level-idx=5;profile=0;tier=0\\r\\na=rtpmap:46 rtx/90000\\r\\na=fmtp:46 apt=45\\r\\na=rtpmap:98 VP9/90000\\r\\na=rtcp-fb:98 goog-remb\\r\\na=rtcp-fb:98 transport-cc\\r\\na=rtcp-fb:98 ccm fir\\r\\na=rtcp-fb:98 nack\\r\\na=rtcp-fb:98 nack pli\\r\\na=fmtp:98 profile-id=0\\r\\na=rtpmap:99 rtx/90000\\r\\na=fmtp:99 apt=98\\r\\na=rtpmap:100 VP9/90000\\r\\na=rtcp-fb:100 goog-remb\\r\\na=rtcp-fb:100 transport-cc\\r\\na=rtcp-fb:100 ccm fir\\r\\na=rtcp-fb:100 nack\\r\\na=rtcp-fb:100 nack pli\\r\\na=fmtp:100 profile-id=2\\r\\na=rtpmap:101 rtx/90000\\r\\na=fmtp:101 apt=100\\r\\na=rtpmap:119 H264/90000\\r\\na=rtcp-fb:119 goog-remb\\r\\na=rtcp-fb:119 transport-cc\\r\\na=rtcp-fb:119 ccm fir\\r\\na=rtcp-fb:119 nack\\r\\na=rtcp-fb:119 nack pli\\r\\na=fmtp:119 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f\\r\\na=rtpmap:120 rtx/90000\\r\\na=fmtp:120 apt=119\\r\\na=rtpmap:49 H265/90000\\r\\na=rtcp-fb:49 goog-remb\\r\\na=rtcp-fb:49 transport-cc\\r\\na=rtcp-fb:49 ccm fir\\r\\na=rtcp-fb:49 nack\\r\\na=rtcp-fb:49 nack pli\\r\\na=fmtp:49 level-id=180;profile-id=1;tier-flag=0;tx-mode=SRST\\r\\na=rtpmap:50 rtx/90000\\r\\na=fmtp:50 apt=49\\r\\na=rtpmap:123 red/90000\\r\\na=rtpmap:124 rtx/90000\\r\\na=fmtp:124 apt=123\\r\\na=rtpmap:125 ulpfec/90000\\r\\na=ssrc-group:FID 4052515602 575228366\\r\\na=ssrc:4052515602 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:4052515602 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=ssrc:575228366 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:575228366 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\n\"},\"iceCandidates\":{\"e7twe3im5zs\":{\"candidate\":\"candidate:3903056368 1 udp 2113937151 71973f12-eb46-4f6b-afa8-93ab67176166.local 55837 typ host generation 0 ufrag trRl network-cost 999\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0,\"usernameFragment\":\"trRl\"}}}"
+    }
+    widgets {
+      id: "$$ID-eccf08923f132160d9216d336f756208-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:36:59.801 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:36:59.801 Beginning script thread
+2025-11-04 23:36:59.801 Sessions still active: dict_keys([])
+2025-11-04 23:36:59.801 Files: 0; Sessions with files: 0
+2025-11-04 23:36:59.801 Running script RerunData(widget_states=widgets {
+  id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+  json_value: "{\"playing\":false,\"sdpOffer\":{\"type\":\"offer\",\"sdp\":\"v=0\\r\\no=- 1916652574435054874 2 IN IP4 127.0.0.1\\r\\ns=-\\r\\nt=0 0\\r\\na=group:BUNDLE 0\\r\\na=extmap-allow-mixed\\r\\na=msid-semantic: WMS c64f447e-0e97-4ae4-b3be-4ddf66f99419\\r\\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 103 104 107 108 109 114 115 116 117 118 39 40 45 46 98 99 100 101 119 120 49 50 123 124 125\\r\\nc=IN IP4 0.0.0.0\\r\\na=rtcp:9 IN IP4 0.0.0.0\\r\\na=ice-ufrag:trRl\\r\\na=ice-pwd:PcOpSs68LUgHIc5hshpCVzvG\\r\\na=ice-options:trickle\\r\\na=fingerprint:sha-256 3A:A9:D5:24:EA:89:2A:A5:2F:E2:A5:D6:53:E7:F3:4E:84:76:42:FC:D8:C7:34:E2:53:5C:A1:5F:6E:D6:FB:CE\\r\\na=setup:actpass\\r\\na=mid:0\\r\\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\\r\\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\\r\\na=extmap:3 urn:3gpp:video-orientation\\r\\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\\r\\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\\r\\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\\r\\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\\r\\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\\r\\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\\r\\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\\r\\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\\r\\na=sendrecv\\r\\na=msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=rtcp-mux\\r\\na=rtcp-rsize\\r\\na=rtpmap:96 VP8/90000\\r\\na=rtcp-fb:96 goog-remb\\r\\na=rtcp-fb:96 transport-cc\\r\\na=rtcp-fb:96 ccm fir\\r\\na=rtcp-fb:96 nack\\r\\na=rtcp-fb:96 nack pli\\r\\na=rtpmap:97 rtx/90000\\r\\na=fmtp:97 apt=96\\r\\na=rtpmap:103 H264/90000\\r\\na=rtcp-fb:103 goog-remb\\r\\na=rtcp-fb:103 transport-cc\\r\\na=rtcp-fb:103 ccm fir\\r\\na=rtcp-fb:103 nack\\r\\na=rtcp-fb:103 nack pli\\r\\na=fmtp:103 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\\r\\na=rtpmap:104 rtx/90000\\r\\na=fmtp:104 apt=103\\r\\na=rtpmap:107 H264/90000\\r\\na=rtcp-fb:107 goog-remb\\r\\na=rtcp-fb:107 transport-cc\\r\\na=rtcp-fb:107 ccm fir\\r\\na=rtcp-fb:107 nack\\r\\na=rtcp-fb:107 nack pli\\r\\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\\r\\na=rtpmap:108 rtx/90000\\r\\na=fmtp:108 apt=107\\r\\na=rtpmap:109 H264/90000\\r\\na=rtcp-fb:109 goog-remb\\r\\na=rtcp-fb:109 transport-cc\\r\\na=rtcp-fb:109 ccm fir\\r\\na=rtcp-fb:109 nack\\r\\na=rtcp-fb:109 nack pli\\r\\na=fmtp:109 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\\r\\na=rtpmap:114 rtx/90000\\r\\na=fmtp:114 apt=109\\r\\na=rtpmap:115 H264/90000\\r\\na=rtcp-fb:115 goog-remb\\r\\na=rtcp-fb:115 transport-cc\\r\\na=rtcp-fb:115 ccm fir\\r\\na=rtcp-fb:115 nack\\r\\na=rtcp-fb:115 nack pli\\r\\na=fmtp:115 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\\r\\na=rtpmap:116 rtx/90000\\r\\na=fmtp:116 apt=115\\r\\na=rtpmap:117 H264/90000\\r\\na=rtcp-fb:117 goog-remb\\r\\na=rtcp-fb:117 transport-cc\\r\\na=rtcp-fb:117 ccm fir\\r\\na=rtcp-fb:117 nack\\r\\na=rtcp-fb:117 nack pli\\r\\na=fmtp:117 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f\\r\\na=rtpmap:118 rtx/90000\\r\\na=fmtp:118 apt=117\\r\\na=rtpmap:39 H264/90000\\r\\na=rtcp-fb:39 goog-remb\\r\\na=rtcp-fb:39 transport-cc\\r\\na=rtcp-fb:39 ccm fir\\r\\na=rtcp-fb:39 nack\\r\\na=rtcp-fb:39 nack pli\\r\\na=fmtp:39 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=4d001f\\r\\na=rtpmap:40 rtx/90000\\r\\na=fmtp:40 apt=39\\r\\na=rtpmap:45 AV1/90000\\r\\na=rtcp-fb:45 goog-remb\\r\\na=rtcp-fb:45 transport-cc\\r\\na=rtcp-fb:45 ccm fir\\r\\na=rtcp-fb:45 nack\\r\\na=rtcp-fb:45 nack pli\\r\\na=fmtp:45 level-idx=5;profile=0;tier=0\\r\\na=rtpmap:46 rtx/90000\\r\\na=fmtp:46 apt=45\\r\\na=rtpmap:98 VP9/90000\\r\\na=rtcp-fb:98 goog-remb\\r\\na=rtcp-fb:98 transport-cc\\r\\na=rtcp-fb:98 ccm fir\\r\\na=rtcp-fb:98 nack\\r\\na=rtcp-fb:98 nack pli\\r\\na=fmtp:98 profile-id=0\\r\\na=rtpmap:99 rtx/90000\\r\\na=fmtp:99 apt=98\\r\\na=rtpmap:100 VP9/90000\\r\\na=rtcp-fb:100 goog-remb\\r\\na=rtcp-fb:100 transport-cc\\r\\na=rtcp-fb:100 ccm fir\\r\\na=rtcp-fb:100 nack\\r\\na=rtcp-fb:100 nack pli\\r\\na=fmtp:100 profile-id=2\\r\\na=rtpmap:101 rtx/90000\\r\\na=fmtp:101 apt=100\\r\\na=rtpmap:119 H264/90000\\r\\na=rtcp-fb:119 goog-remb\\r\\na=rtcp-fb:119 transport-cc\\r\\na=rtcp-fb:119 ccm fir\\r\\na=rtcp-fb:119 nack\\r\\na=rtcp-fb:119 nack pli\\r\\na=fmtp:119 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f\\r\\na=rtpmap:120 rtx/90000\\r\\na=fmtp:120 apt=119\\r\\na=rtpmap:49 H265/90000\\r\\na=rtcp-fb:49 goog-remb\\r\\na=rtcp-fb:49 transport-cc\\r\\na=rtcp-fb:49 ccm fir\\r\\na=rtcp-fb:49 nack\\r\\na=rtcp-fb:49 nack pli\\r\\na=fmtp:49 level-id=180;profile-id=1;tier-flag=0;tx-mode=SRST\\r\\na=rtpmap:50 rtx/90000\\r\\na=fmtp:50 apt=49\\r\\na=rtpmap:123 red/90000\\r\\na=rtpmap:124 rtx/90000\\r\\na=fmtp:124 apt=123\\r\\na=rtpmap:125 ulpfec/90000\\r\\na=ssrc-group:FID 4052515602 575228366\\r\\na=ssrc:4052515602 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:4052515602 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=ssrc:575228366 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:575228366 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\n\"},\"iceCandidates\":{\"e7twe3im5zs\":{\"candidate\":\"candidate:3903056368 1 udp 2113937151 71973f12-eb46-4f6b-afa8-93ab67176166.local 55837 typ host generation 0 ufrag trRl network-cost 999\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0,\"usernameFragment\":\"trRl\"}}}"
+}
+widgets {
+  id: "$$ID-eccf08923f132160d9216d336f756208-None"
+  file_uploader_state_value {
+  }
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:36:59.802 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:36:59.802 Sessions still active: dict_keys([])
+2025-11-04 23:36:59.802 Files: 0; Sessions with files: 0
+2025-11-04 23:36:59.802 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SCRIPT_STARTED
+2025-11-04 23:36:59.803 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.ENQUEUE_FORWARD_MSG
+2025-11-04 23:36:59.804 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2025-11-04 23:36:59.803 Removing orphaned files...
+2025-11-04 23:36:59.839 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SHUTDOWN
+2025-11-04 23:36:59.841 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:59.841 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:59.859 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+      json_value: "{\"playing\":false,\"sdpOffer\":{\"type\":\"offer\",\"sdp\":\"v=0\\r\\no=- 1916652574435054874 2 IN IP4 127.0.0.1\\r\\ns=-\\r\\nt=0 0\\r\\na=group:BUNDLE 0\\r\\na=extmap-allow-mixed\\r\\na=msid-semantic: WMS c64f447e-0e97-4ae4-b3be-4ddf66f99419\\r\\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 103 104 107 108 109 114 115 116 117 118 39 40 45 46 98 99 100 101 119 120 49 50 123 124 125\\r\\nc=IN IP4 0.0.0.0\\r\\na=rtcp:9 IN IP4 0.0.0.0\\r\\na=ice-ufrag:trRl\\r\\na=ice-pwd:PcOpSs68LUgHIc5hshpCVzvG\\r\\na=ice-options:trickle\\r\\na=fingerprint:sha-256 3A:A9:D5:24:EA:89:2A:A5:2F:E2:A5:D6:53:E7:F3:4E:84:76:42:FC:D8:C7:34:E2:53:5C:A1:5F:6E:D6:FB:CE\\r\\na=setup:actpass\\r\\na=mid:0\\r\\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\\r\\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\\r\\na=extmap:3 urn:3gpp:video-orientation\\r\\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\\r\\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\\r\\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\\r\\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\\r\\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\\r\\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\\r\\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\\r\\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\\r\\na=sendrecv\\r\\na=msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=rtcp-mux\\r\\na=rtcp-rsize\\r\\na=rtpmap:96 VP8/90000\\r\\na=rtcp-fb:96 goog-remb\\r\\na=rtcp-fb:96 transport-cc\\r\\na=rtcp-fb:96 ccm fir\\r\\na=rtcp-fb:96 nack\\r\\na=rtcp-fb:96 nack pli\\r\\na=rtpmap:97 rtx/90000\\r\\na=fmtp:97 apt=96\\r\\na=rtpmap:103 H264/90000\\r\\na=rtcp-fb:103 goog-remb\\r\\na=rtcp-fb:103 transport-cc\\r\\na=rtcp-fb:103 ccm fir\\r\\na=rtcp-fb:103 nack\\r\\na=rtcp-fb:103 nack pli\\r\\na=fmtp:103 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\\r\\na=rtpmap:104 rtx/90000\\r\\na=fmtp:104 apt=103\\r\\na=rtpmap:107 H264/90000\\r\\na=rtcp-fb:107 goog-remb\\r\\na=rtcp-fb:107 transport-cc\\r\\na=rtcp-fb:107 ccm fir\\r\\na=rtcp-fb:107 nack\\r\\na=rtcp-fb:107 nack pli\\r\\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\\r\\na=rtpmap:108 rtx/90000\\r\\na=fmtp:108 apt=107\\r\\na=rtpmap:109 H264/90000\\r\\na=rtcp-fb:109 goog-remb\\r\\na=rtcp-fb:109 transport-cc\\r\\na=rtcp-fb:109 ccm fir\\r\\na=rtcp-fb:109 nack\\r\\na=rtcp-fb:109 nack pli\\r\\na=fmtp:109 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\\r\\na=rtpmap:114 rtx/90000\\r\\na=fmtp:114 apt=109\\r\\na=rtpmap:115 H264/90000\\r\\na=rtcp-fb:115 goog-remb\\r\\na=rtcp-fb:115 transport-cc\\r\\na=rtcp-fb:115 ccm fir\\r\\na=rtcp-fb:115 nack\\r\\na=rtcp-fb:115 nack pli\\r\\na=fmtp:115 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\\r\\na=rtpmap:116 rtx/90000\\r\\na=fmtp:116 apt=115\\r\\na=rtpmap:117 H264/90000\\r\\na=rtcp-fb:117 goog-remb\\r\\na=rtcp-fb:117 transport-cc\\r\\na=rtcp-fb:117 ccm fir\\r\\na=rtcp-fb:117 nack\\r\\na=rtcp-fb:117 nack pli\\r\\na=fmtp:117 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f\\r\\na=rtpmap:118 rtx/90000\\r\\na=fmtp:118 apt=117\\r\\na=rtpmap:39 H264/90000\\r\\na=rtcp-fb:39 goog-remb\\r\\na=rtcp-fb:39 transport-cc\\r\\na=rtcp-fb:39 ccm fir\\r\\na=rtcp-fb:39 nack\\r\\na=rtcp-fb:39 nack pli\\r\\na=fmtp:39 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=4d001f\\r\\na=rtpmap:40 rtx/90000\\r\\na=fmtp:40 apt=39\\r\\na=rtpmap:45 AV1/90000\\r\\na=rtcp-fb:45 goog-remb\\r\\na=rtcp-fb:45 transport-cc\\r\\na=rtcp-fb:45 ccm fir\\r\\na=rtcp-fb:45 nack\\r\\na=rtcp-fb:45 nack pli\\r\\na=fmtp:45 level-idx=5;profile=0;tier=0\\r\\na=rtpmap:46 rtx/90000\\r\\na=fmtp:46 apt=45\\r\\na=rtpmap:98 VP9/90000\\r\\na=rtcp-fb:98 goog-remb\\r\\na=rtcp-fb:98 transport-cc\\r\\na=rtcp-fb:98 ccm fir\\r\\na=rtcp-fb:98 nack\\r\\na=rtcp-fb:98 nack pli\\r\\na=fmtp:98 profile-id=0\\r\\na=rtpmap:99 rtx/90000\\r\\na=fmtp:99 apt=98\\r\\na=rtpmap:100 VP9/90000\\r\\na=rtcp-fb:100 goog-remb\\r\\na=rtcp-fb:100 transport-cc\\r\\na=rtcp-fb:100 ccm fir\\r\\na=rtcp-fb:100 nack\\r\\na=rtcp-fb:100 nack pli\\r\\na=fmtp:100 profile-id=2\\r\\na=rtpmap:101 rtx/90000\\r\\na=fmtp:101 apt=100\\r\\na=rtpmap:119 H264/90000\\r\\na=rtcp-fb:119 goog-remb\\r\\na=rtcp-fb:119 transport-cc\\r\\na=rtcp-fb:119 ccm fir\\r\\na=rtcp-fb:119 nack\\r\\na=rtcp-fb:119 nack pli\\r\\na=fmtp:119 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f\\r\\na=rtpmap:120 rtx/90000\\r\\na=fmtp:120 apt=119\\r\\na=rtpmap:49 H265/90000\\r\\na=rtcp-fb:49 goog-remb\\r\\na=rtcp-fb:49 transport-cc\\r\\na=rtcp-fb:49 ccm fir\\r\\na=rtcp-fb:49 nack\\r\\na=rtcp-fb:49 nack pli\\r\\na=fmtp:49 level-id=180;profile-id=1;tier-flag=0;tx-mode=SRST\\r\\na=rtpmap:50 rtx/90000\\r\\na=fmtp:50 apt=49\\r\\na=rtpmap:123 red/90000\\r\\na=rtpmap:124 rtx/90000\\r\\na=fmtp:124 apt=123\\r\\na=rtpmap:125 ulpfec/90000\\r\\na=ssrc-group:FID 4052515602 575228366\\r\\na=ssrc:4052515602 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:4052515602 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=ssrc:575228366 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:575228366 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\n\"},\"iceCandidates\":{\"e7twe3im5zs\":{\"candidate\":\"candidate:3903056368 1 udp 2113937151 71973f12-eb46-4f6b-afa8-93ab67176166.local 55837 typ host generation 0 ufrag trRl network-cost 999\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0,\"usernameFragment\":\"trRl\"},\"ftzepy9kx\":{\"candidate\":\"candidate:599060230 1 udp 1677729535 37.222.145.180 55837 typ srflx raddr 0.0.0.0 rport 0 generation 0 ufrag trRl network-cost 999\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0,\"usernameFragment\":\"trRl\"}}}"
+    }
+    widgets {
+      id: "$$ID-eccf08923f132160d9216d336f756208-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:36:59.860 Beginning script thread
+2025-11-04 23:36:59.860 Running script RerunData(widget_states=widgets {
+  id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+  json_value: "{\"playing\":false,\"sdpOffer\":{\"type\":\"offer\",\"sdp\":\"v=0\\r\\no=- 1916652574435054874 2 IN IP4 127.0.0.1\\r\\ns=-\\r\\nt=0 0\\r\\na=group:BUNDLE 0\\r\\na=extmap-allow-mixed\\r\\na=msid-semantic: WMS c64f447e-0e97-4ae4-b3be-4ddf66f99419\\r\\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 103 104 107 108 109 114 115 116 117 118 39 40 45 46 98 99 100 101 119 120 49 50 123 124 125\\r\\nc=IN IP4 0.0.0.0\\r\\na=rtcp:9 IN IP4 0.0.0.0\\r\\na=ice-ufrag:trRl\\r\\na=ice-pwd:PcOpSs68LUgHIc5hshpCVzvG\\r\\na=ice-options:trickle\\r\\na=fingerprint:sha-256 3A:A9:D5:24:EA:89:2A:A5:2F:E2:A5:D6:53:E7:F3:4E:84:76:42:FC:D8:C7:34:E2:53:5C:A1:5F:6E:D6:FB:CE\\r\\na=setup:actpass\\r\\na=mid:0\\r\\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\\r\\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\\r\\na=extmap:3 urn:3gpp:video-orientation\\r\\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\\r\\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\\r\\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\\r\\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\\r\\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\\r\\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\\r\\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\\r\\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\\r\\na=sendrecv\\r\\na=msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=rtcp-mux\\r\\na=rtcp-rsize\\r\\na=rtpmap:96 VP8/90000\\r\\na=rtcp-fb:96 goog-remb\\r\\na=rtcp-fb:96 transport-cc\\r\\na=rtcp-fb:96 ccm fir\\r\\na=rtcp-fb:96 nack\\r\\na=rtcp-fb:96 nack pli\\r\\na=rtpmap:97 rtx/90000\\r\\na=fmtp:97 apt=96\\r\\na=rtpmap:103 H264/90000\\r\\na=rtcp-fb:103 goog-remb\\r\\na=rtcp-fb:103 transport-cc\\r\\na=rtcp-fb:103 ccm fir\\r\\na=rtcp-fb:103 nack\\r\\na=rtcp-fb:103 nack pli\\r\\na=fmtp:103 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\\r\\na=rtpmap:104 rtx/90000\\r\\na=fmtp:104 apt=103\\r\\na=rtpmap:107 H264/90000\\r\\na=rtcp-fb:107 goog-remb\\r\\na=rtcp-fb:107 transport-cc\\r\\na=rtcp-fb:107 ccm fir\\r\\na=rtcp-fb:107 nack\\r\\na=rtcp-fb:107 nack pli\\r\\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\\r\\na=rtpmap:108 rtx/90000\\r\\na=fmtp:108 apt=107\\r\\na=rtpmap:109 H264/90000\\r\\na=rtcp-fb:109 goog-remb\\r\\na=rtcp-fb:109 transport-cc\\r\\na=rtcp-fb:109 ccm fir\\r\\na=rtcp-fb:109 nack\\r\\na=rtcp-fb:109 nack pli\\r\\na=fmtp:109 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\\r\\na=rtpmap:114 rtx/90000\\r\\na=fmtp:114 apt=109\\r\\na=rtpmap:115 H264/90000\\r\\na=rtcp-fb:115 goog-remb\\r\\na=rtcp-fb:115 transport-cc\\r\\na=rtcp-fb:115 ccm fir\\r\\na=rtcp-fb:115 nack\\r\\na=rtcp-fb:115 nack pli\\r\\na=fmtp:115 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\\r\\na=rtpmap:116 rtx/90000\\r\\na=fmtp:116 apt=115\\r\\na=rtpmap:117 H264/90000\\r\\na=rtcp-fb:117 goog-remb\\r\\na=rtcp-fb:117 transport-cc\\r\\na=rtcp-fb:117 ccm fir\\r\\na=rtcp-fb:117 nack\\r\\na=rtcp-fb:117 nack pli\\r\\na=fmtp:117 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f\\r\\na=rtpmap:118 rtx/90000\\r\\na=fmtp:118 apt=117\\r\\na=rtpmap:39 H264/90000\\r\\na=rtcp-fb:39 goog-remb\\r\\na=rtcp-fb:39 transport-cc\\r\\na=rtcp-fb:39 ccm fir\\r\\na=rtcp-fb:39 nack\\r\\na=rtcp-fb:39 nack pli\\r\\na=fmtp:39 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=4d001f\\r\\na=rtpmap:40 rtx/90000\\r\\na=fmtp:40 apt=39\\r\\na=rtpmap:45 AV1/90000\\r\\na=rtcp-fb:45 goog-remb\\r\\na=rtcp-fb:45 transport-cc\\r\\na=rtcp-fb:45 ccm fir\\r\\na=rtcp-fb:45 nack\\r\\na=rtcp-fb:45 nack pli\\r\\na=fmtp:45 level-idx=5;profile=0;tier=0\\r\\na=rtpmap:46 rtx/90000\\r\\na=fmtp:46 apt=45\\r\\na=rtpmap:98 VP9/90000\\r\\na=rtcp-fb:98 goog-remb\\r\\na=rtcp-fb:98 transport-cc\\r\\na=rtcp-fb:98 ccm fir\\r\\na=rtcp-fb:98 nack\\r\\na=rtcp-fb:98 nack pli\\r\\na=fmtp:98 profile-id=0\\r\\na=rtpmap:99 rtx/90000\\r\\na=fmtp:99 apt=98\\r\\na=rtpmap:100 VP9/90000\\r\\na=rtcp-fb:100 goog-remb\\r\\na=rtcp-fb:100 transport-cc\\r\\na=rtcp-fb:100 ccm fir\\r\\na=rtcp-fb:100 nack\\r\\na=rtcp-fb:100 nack pli\\r\\na=fmtp:100 profile-id=2\\r\\na=rtpmap:101 rtx/90000\\r\\na=fmtp:101 apt=100\\r\\na=rtpmap:119 H264/90000\\r\\na=rtcp-fb:119 goog-remb\\r\\na=rtcp-fb:119 transport-cc\\r\\na=rtcp-fb:119 ccm fir\\r\\na=rtcp-fb:119 nack\\r\\na=rtcp-fb:119 nack pli\\r\\na=fmtp:119 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f\\r\\na=rtpmap:120 rtx/90000\\r\\na=fmtp:120 apt=119\\r\\na=rtpmap:49 H265/90000\\r\\na=rtcp-fb:49 goog-remb\\r\\na=rtcp-fb:49 transport-cc\\r\\na=rtcp-fb:49 ccm fir\\r\\na=rtcp-fb:49 nack\\r\\na=rtcp-fb:49 nack pli\\r\\na=fmtp:49 level-id=180;profile-id=1;tier-flag=0;tx-mode=SRST\\r\\na=rtpmap:50 rtx/90000\\r\\na=fmtp:50 apt=49\\r\\na=rtpmap:123 red/90000\\r\\na=rtpmap:124 rtx/90000\\r\\na=fmtp:124 apt=123\\r\\na=rtpmap:125 ulpfec/90000\\r\\na=ssrc-group:FID 4052515602 575228366\\r\\na=ssrc:4052515602 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:4052515602 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\na=ssrc:575228366 cname:G9IW+Qnw3akJV9ME\\r\\na=ssrc:575228366 msid:c64f447e-0e97-4ae4-b3be-4ddf66f99419 677f20c8-f0a9-4801-8428-51021620b073\\r\\n\"},\"iceCandidates\":{\"e7twe3im5zs\":{\"candidate\":\"candidate:3903056368 1 udp 2113937151 71973f12-eb46-4f6b-afa8-93ab67176166.local 55837 typ host generation 0 ufrag trRl network-cost 999\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0,\"usernameFragment\":\"trRl\"},\"ftzepy9kx\":{\"candidate\":\"candidate:599060230 1 udp 1677729535 37.222.145.180 55837 typ srflx raddr 0.0.0.0 rport 0 generation 0 ufrag trRl network-cost 999\",\"sdpMid\":\"0\",\"sdpMLineIndex\":0,\"usernameFragment\":\"trRl\"}}}"
+}
+widgets {
+  id: "$$ID-eccf08923f132160d9216d336f756208-None"
+  file_uploader_state_value {
+  }
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:36:59.860 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:36:59.860 Sessions still active: dict_keys([])
+2025-11-04 23:36:59.860 Files: 0; Sessions with files: 0
+2025-11-04 23:36:59.862 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:36:59.862 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:04.862 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.ENQUEUE_FORWARD_MSG
+2025-11-04 23:37:04.863 Removing orphaned files...
+2025-11-04 23:37:04.870 Removing orphaned files...
+2025-11-04 23:37:04.915 Running script RerunData(page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:37:04.915 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:37:04.915 Sessions still active: dict_keys([])
+2025-11-04 23:37:04.915 Files: 0; Sessions with files: 0
+2025-11-04 23:37:04.918 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:04.918 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:05.057 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2025-11-04 23:37:05.057 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SHUTDOWN
+2025-11-04 23:37:05.109 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+      json_value: "{\"playing\":true,\"sdpOffer\":\"\",\"iceCandidates\":{}}"
+    }
+    widgets {
+      id: "$$ID-eccf08923f132160d9216d336f756208-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:37:05.109 Beginning script thread
+2025-11-04 23:37:05.110 Running script RerunData(widget_states=widgets {
+  id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+  json_value: "{\"playing\":true,\"sdpOffer\":\"\",\"iceCandidates\":{}}"
+}
+widgets {
+  id: "$$ID-eccf08923f132160d9216d336f756208-None"
+  file_uploader_state_value {
+  }
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:37:05.110 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:37:05.110 Sessions still active: dict_keys([])
+2025-11-04 23:37:05.110 Files: 0; Sessions with files: 0
+2025-11-04 23:37:05.113 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:05.113 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:06.928 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.ENQUEUE_FORWARD_MSG
+2025-11-04 23:37:06.928 Removing orphaned files...
+2025-11-04 23:37:06.928 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SCRIPT_STOPPED_WITH_SUCCESS
+2025-11-04 23:37:06.985 Ignoring event from non-current ScriptRunner: ScriptRunnerEvent.SHUTDOWN
+2025-11-04 23:37:07.932 Removing orphaned files...
+2025-11-04 23:37:21.077 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+      string_value: ""
+    }
+    widgets {
+      id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+      json_value: "{\"playing\":false,\"sdpOffer\":\"\",\"iceCandidates\":{}}"
+    }
+    widgets {
+      id: "$$ID-eccf08923f132160d9216d336f756208-None"
+      file_uploader_state_value {
+      }
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+  context_info {
+    timezone: "Europe/Madrid"
+    timezone_offset: -60
+    locale: "en-GB"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-11-04 23:37:21.078 Beginning script thread
+2025-11-04 23:37:21.078 Running script RerunData(widget_states=widgets {
+  id: "$$ID-d9e07b9672e6eee73160e3d6da055035-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-ac59fd60e76a3d78d1d05e07f9459e7e-None"
+  string_value: ""
+}
+widgets {
+  id: "$$ID-0d68a8c9bdd798b177e0b70437888c14-scanner_estable:frontend 6)r])0Gea7e#2E#{y^i*_UzwU\"@RJP<z"
+  json_value: "{\"playing\":false,\"sdpOffer\":\"\",\"iceCandidates\":{}}"
+}
+widgets {
+  id: "$$ID-eccf08923f132160d9216d336f756208-None"
+  file_uploader_state_value {
+  }
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:37:21.078 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:37:21.078 Sessions still active: dict_keys([])
+2025-11-04 23:37:21.078 Files: 0; Sessions with files: 0
+2025-11-04 23:37:21.087 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:21.087 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:21.104 Removing orphaned files...
+2025-11-04 23:37:21.131 Running script RerunData(page_script_hash='3f41e546893dc64b71aaacad12cad815', context_info=timezone: "Europe/Madrid"
+timezone_offset: -60
+locale: "en-GB"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-11-04 23:37:21.132 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:37:21.132 Sessions still active: dict_keys([])
+2025-11-04 23:37:21.132 Files: 0; Sessions with files: 0
+2025-11-04 23:37:21.136 Cache key: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:21.137 Memory cache HIT: ee5a0b21450c8f3e42e6f537b195c4b5
+2025-11-04 23:37:23.161 Removing orphaned files...
+2025-11-04T23:36:08.922302 - 🎛 State=WebRtcStreamerState(playing=False, signalling=False)
+2025-11-04T23:36:09.052102 - 🎛 State=WebRtcStreamerState(playing=False, signalling=False)
+2025-11-04T23:36:10.924607 - 📡 Receiver=True, Value=None
+2025-11-04T23:36:10.926673 - 🛑 Cámara detenida o inicializando
+2025-11-04T23:36:11.055960 - 📡 Receiver=True, Value=None
+2025-11-04T23:36:11.056348 - 🛑 Cámara detenida o inicializando
+2025-11-04T23:36:54.932845 - 🎛 State=WebRtcStreamerState(playing=False, signalling=False)
+2025-11-04T23:36:55.060071 - 🎛 State=WebRtcStreamerState(playing=False, signalling=False)
+2025-11-04T23:36:56.935991 - 📡 Receiver=True, Value=None
+2025-11-04T23:36:56.937069 - 🛑 Cámara detenida o inicializando
+2025-11-04T23:36:57.065461 - 📡 Receiver=True, Value=None
+2025-11-04T23:36:57.065762 - 🛑 Cámara detenida o inicializando
+2025-11-04T23:37:04.919203 - 🎛 State=WebRtcStreamerState(playing=False, signalling=True)
+2025-11-04T23:37:05.114120 - 🎛 State=WebRtcStreamerState(playing=True, signalling=False)
+2025-11-04T23:37:06.922752 - 📡 Receiver=True, Value=None
+2025-11-04T23:37:06.924954 - 📹 Cámara activa y reproduciendo correctamente
+2025-11-04T23:37:07.116513 - 📡 Receiver=True, Value=None
+2025-11-04T23:37:07.117075 - 📹 Cámara activa y reproduciendo correctamente
+2025-11-04T23:37:21.137720 - 🎛 State=WebRtcStreamerState(playing=False, signalling=False)
+2025-11-04T23:37:23.139633 - 📡 Receiver=True, Value=None
+2025-11-04T23:37:23.140498 - 🛑 Cámara detenida o inicializando
+  Stopping...
+2025-11-04 23:37:36.113 Runtime stopping...
+2025-11-04 23:37:36.113 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.STOPPING
+2025-11-04 23:37:36.113 Shutting down (id=c7748145-5b5f-4485-a025-100738588a0b)
+2025-11-04 23:37:36.113 Disconnecting files for session with ID c7748145-5b5f-4485-a025-100738588a0b
+2025-11-04 23:37:36.113 Sessions still active: dict_keys([])
+2025-11-04 23:37:36.114 Files: 0; Sessions with files: 0
+2025-11-04 23:37:36.114 Removing orphaned files...
+2025-11-04 23:37:36.114 Shutting down (id=8f33e302-a90d-427f-8040-354a142bffd0)
+2025-11-04 23:37:36.114 Disconnecting files for session with ID 8f33e302-a90d-427f-8040-354a142bffd0
+2025-11-04 23:37:36.114 Sessions still active: dict_keys([])
+2025-11-04 23:37:36.114 Files: 0; Sessions with files: 0
+2025-11-04 23:37:36.114 Removing orphaned files...
+2025-11-04 23:37:36.114 Shutting down (id=24c56fda-2760-4af5-8928-99d435e930d1)
+2025-11-04 23:37:36.114 Disconnecting files for session with ID 24c56fda-2760-4af5-8928-99d435e930d1
+2025-11-04 23:37:36.114 Sessions still active: dict_keys([])
+2025-11-04 23:37:36.114 Files: 0; Sessions with files: 0
+2025-11-04 23:37:36.114 Removing orphaned files...
+2025-11-04 23:37:36.114 Shutting down (id=b0c5fd8b-9bbf-4503-8e8f-d23c8db008aa)
+2025-11-04 23:37:36.114 Disconnecting files for session with ID b0c5fd8b-9bbf-4503-8e8f-d23c8db008aa
+2025-11-04 23:37:36.114 Sessions still active: dict_keys([])
+2025-11-04 23:37:36.114 Files: 0; Sessions with files: 0
+2025-11-04 23:37:36.114 Removing orphaned files...
+2025-11-04 23:37:36.114 Runtime state: RuntimeState.STOPPING -> RuntimeState.STOPPED
+  Stopping...
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1530, in _shutdown
+    atexit_call()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1089, in join
+    self._wait_for_tstate_lock()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1109, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+  File "/Users/matiasvecchio/Desktop/entrada_qr/venv/lib/python3.10/site-packages/streamlit/web/bootstrap.py", line 42, in signal_handler
+    server.stop()
+  File "/Users/matiasvecchio/Desktop/entrada_qr/venv/lib/python3.10/site-packages/streamlit/web/server/server.py", line 519, in stop
+    self._runtime.stop()
+  File "/Users/matiasvecchio/Desktop/entrada_qr/venv/lib/python3.10/site-packages/streamlit/runtime/runtime.py", line 343, in stop
+    async_objs.eventloop.call_soon_threadsafe(stop_on_eventloop)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 795, in call_soon_threadsafe
+    self._check_closed()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
