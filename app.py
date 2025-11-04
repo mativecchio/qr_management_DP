@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer, RTCConfiguration
-from pyzbar.pyzbar import decode
 from PIL import Image
 import cv2
 import traceback
