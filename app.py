@@ -213,12 +213,14 @@ st.subheader("📷 Escanear QR en tiempo real (modo estable)")
 from streamlit_webrtc import RTCConfiguration
 
 # Configuración de STUN para conexión estable
+
 rtc_config = RTCConfiguration({
     "iceServers": [
         {"urls": ["stun:stun.l.google.com:19302"]},
-       
+        {"urls": ["turn:relay.metered.ca:80"], "username": "openai", "credential": "openai123"}
     ]
 })
+
 
 
 detector = cv2.QRCodeDetector()
