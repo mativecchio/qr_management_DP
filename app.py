@@ -217,7 +217,14 @@ from streamlit_webrtc import RTCConfiguration
 rtc_config = RTCConfiguration({
     "iceServers": [
         {"urls": ["stun:stun.l.google.com:19302"]},
-        {"urls": ["turn:relay.metered.ca:80"], "username": "openai", "credential": "openai123"}
+        {
+            "urls": [
+                "turn:relay1.expressturn.com:3478",
+                "turns:relay1.expressturn.com:5349"
+            ],
+            "username": "ef408b22e0",
+            "credential": "oFOPc8ik2xkBdg4x"
+        }
     ]
 })
 
