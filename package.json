@@ -1,0 +1,20 @@
+{
+  "name": "entrada_qr",
+  "version": "1.0.0",
+  "description": "qr_management_DP",
+  "homepage": "https://github.com/mativecchio/qr_management_DP#readme",
+  "bugs": {
+    "url": "https://github.com/mativecchio/qr_management_DP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mativecchio/qr_management_DP.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

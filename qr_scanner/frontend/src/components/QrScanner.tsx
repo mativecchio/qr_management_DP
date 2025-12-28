@@ -1,0 +1,98 @@
+import { useEffect, useState } from "react";
+import { Streamlit } from "streamlit-component-lib";
+
+const QrScanner: React.FC = () => {
+  const [height, setHeight] = useState<string>('200');
+  useEffect(() => {
+    console.log("[QR] useEffect iniciado");
+
+    Streamlit.setComponentReady();
+    Streamlit.setFrameHeight(320);
+    console.log("[QR] componentReady + frameHeight inicial");
+
+    const start = () => {
+      const reader = document.getElementById("reader");
+
+      if (!reader) {
+        console.warn("[QR] reader no existe, reintentando...");
+        setTimeout(start, 300);
+        return;
+      }
+
+      const rect = reader.getBoundingClientRect();
+      console.log("[QR] reader size:", rect.width, rect.height);
+
+      if (rect.width === 0 || rect.height === 0) {
+        console.warn("[QR] reader sin tamaño, reintentando...");
+        setTimeout(start, 300);
+        return;
+      }
+      Streamlit.setFrameHeight(rect.height + 20);
+      setHeight(rect.height.toString());
+      console.log("[QR] creando script html5-qrcode");
+
+      const script = document.createElement("script");
+      script.src = "https://unpkg.com/html5-qrcode";
+      script.async = true;
+
+      script.onload = () => {
+        console.log("[QR] html5-qrcode cargado");
+
+        // @ts-ignore
+        Html5Qrcode.getCameras()
+          .then((devices: any[]) => {
+            console.log("[QR] Cámaras:", devices);
+
+            if (!devices || devices.length === 0) {
+              console.error("[QR] No hay cámaras");
+              return;
+            }
+
+            // @ts-ignore
+            const qr = new Html5Qrcode("reader");
+
+            console.log("[QR] iniciando cámara");
+
+            qr.start(
+              devices[0].id,
+              { fps: 10, qrbox: 250 },
+              (decodedText: string) => {
+                console.log("[QR] QR detectado:", decodedText);
+
+                // ✅ AHORA Streamlit SÍ lo acepta
+                Streamlit.setComponentValue(decodedText);
+                console.log("[QR] valor enviado a Streamlit");
+
+                qr.stop().then(() => {
+                  console.log("[QR] cámara detenida");
+                });
+              }
+            ).catch((err: any) => {
+              console.error("[QR] error al iniciar cámara", err);
+            });
+          })
+          .catch((err: any) => {
+            console.error("[QR] error getCameras", err);
+          });
+      };
+
+      document.body.appendChild(script);
+    };
+
+    start();
+  }, []);
+
+  return (
+    <div
+      id="reader"
+      style={{
+        width: "300px",
+        height: height + 'px',
+        margin: "auto",
+        background: "#000",
+      }}
+    />
+  );
+};
+
+export default QrScanner;
