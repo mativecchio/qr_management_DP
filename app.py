@@ -189,7 +189,7 @@ if st.button("🔄 Escanear otro QR"):
     st.session_state["ultimo_qr"] = None
     st.session_state["qr_processed"] = False
     log("Reiniciando escaneo para otro QR")
-    st.rerun()
+    # st.rerun()
 
 # --- Mostrar logs ---
 st.subheader("📝 Logs en tiempo real")
