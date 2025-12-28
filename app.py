@@ -154,7 +154,6 @@ if st.session_state.get("qr_active", True):
     qr_code = qr_scanner(key="qr1")
     if qr_code:
         st.session_state["ultimo_qr"] = qr_code
-        st.session_state["qr_active"] = False
         st.session_state["qr_processed"] = False
 
 # # --- Escaneo QR ---
