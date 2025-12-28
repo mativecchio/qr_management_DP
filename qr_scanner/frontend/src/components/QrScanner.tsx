@@ -63,9 +63,9 @@ const QrScanner: React.FC = () => {
                 Streamlit.setComponentValue(decodedText);
                 console.log("[QR] valor enviado a Streamlit");
 
-                qr.stop().then(() => {
-                  console.log("[QR] cámara detenida");
-                });
+                // qr.stop().then(() => {
+                //   console.log("[QR] cámara detenida");
+                // });
               }
             ).catch((err: any) => {
               console.error("[QR] error al iniciar cámara", err);
