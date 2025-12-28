@@ -99,6 +99,9 @@ if "qr_active" not in st.session_state:
     st.session_state["qr_active"] = True
 if "qr_processed" not in st.session_state:
     st.session_state["qr_processed"] = False
+# Placeholder para mostrar mensajes de validación
+if "mensaje_placeholder" not in st.session_state:
+    st.session_state["mensaje_placeholder"] = st.empty()
 
 
 # --- Generar QR ---
@@ -147,49 +150,57 @@ with st.form("generar_qr"):
 
 st.title("🎫 Gestor de Entradas QR")
 # --- Escaneo QR ---
-if st.session_state["qr_active"]:
-    try:
-        # log("ANTES de llamar a qr_scanner()")
-        qr_code = qr_scanner(key="qr1")
-        # log(f"DESPUÉS de llamar a qr_scanner() → valor={qr_code}")
-    except Exception as e:
-        # log(f"ERROR llamando qr_scanner(): {e}")
-        qr_code = None
-
+if st.session_state.get("qr_active", True):
+    qr_code = qr_scanner(key="qr1")
     if qr_code:
-        # log(f"QR recibido desde componente: {qr_code}")
         st.session_state["ultimo_qr"] = qr_code
         st.session_state["qr_active"] = False
-        st.session_state["qr_processed"] = False  # reset procesado
-    else:
-        log("QR vacío (None o '')")
+        st.session_state["qr_processed"] = False
+
+# # --- Escaneo QR ---
+# if st.session_state["qr_active"]:
+#     try:
+#         # log("ANTES de llamar a qr_scanner()")
+#         qr_code = qr_scanner(key="qr1")
+#         # log(f"DESPUÉS de llamar a qr_scanner() → valor={qr_code}")
+#     except Exception as e:
+#         # log(f"ERROR llamando qr_scanner(): {e}")
+#         qr_code = None
+
+#     if qr_code:
+#         # log(f"QR recibido desde componente: {qr_code}")
+#         st.session_state["ultimo_qr"] = qr_code
+#         st.session_state["qr_active"] = False
+#         st.session_state["qr_processed"] = False  # reset procesado
+#     else:
+#         log("QR vacío (None o '')")
 
 # --- Procesar QR ---
 if st.session_state.get("ultimo_qr") and not st.session_state.get("qr_processed"):
     codigo = st.session_state["ultimo_qr"].strip()
-    st.session_state["qr_processed"] = True  # marcar como procesado
+    st.session_state["qr_processed"] = True
 
     if codigo in validos:
         nombre = validos[codigo]["name"]
         if validos[codigo]["used"]:
-            st.error(f"Código ya usado: {codigo} - {nombre}")
+            st.session_state["mensaje_placeholder"].error(f"Código ya usado: {codigo} - {nombre}")
         else:
-            st.success(f"Código válido: {codigo} - {nombre}")
+            st.session_state["mensaje_placeholder"].success(f"Código válido: {codigo} - {nombre}")
             validos[codigo]["used"] = True
             with open(USED_FILE, "a") as f:
                 f.write(f"{codigo}\n")
             with open(REGISTRO_FILE, "a") as f:
                 f.write(f"{datetime.now().isoformat()},{codigo},{nombre}\n")
     else:
-        st.error(f"Código inválido: {codigo}")
+        st.session_state["mensaje_placeholder"].error(f"Código inválido: {codigo}")
 
 # --- Botón para escanear otro QR ---
 if st.button("🔄 Escanear otro QR"):
     st.session_state["qr_active"] = True
     st.session_state["ultimo_qr"] = None
     st.session_state["qr_processed"] = False
-    log("Reiniciando escaneo para otro QR")
-    # st.rerun()
+    st.session_state["mensaje_placeholder"].empty()  # limpiar mensaje
+    st.rerun()
 
 # --- Mostrar logs ---
 st.subheader("📝 Logs en tiempo real")
