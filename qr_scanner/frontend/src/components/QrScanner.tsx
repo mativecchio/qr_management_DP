@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { Streamlit } from "streamlit-component-lib";
 
+const MIN_HEIGHT = 380;
+
 const QrScanner: React.FC = () => {
-  const [height, setHeight] = useState<string>('200');
+  const [height, setHeight] = useState<string>('300');
   useEffect(() => {
     console.log("[QR] useEffect iniciado");
 
@@ -27,8 +29,9 @@ const QrScanner: React.FC = () => {
         setTimeout(start, 300);
         return;
       }
+
       Streamlit.setFrameHeight(rect.height + 200);
-      setHeight(rect.height.toString());
+      setHeight(Math.max(rect.height, MIN_HEIGHT).toString());
       console.log("[QR] creando script html5-qrcode");
 
       const script = document.createElement("script");
@@ -48,14 +51,25 @@ const QrScanner: React.FC = () => {
               return;
             }
 
+            const backCamera =
+              devices.find(d =>
+                d.label?.toLowerCase().includes("back") ||
+                d.label?.toLowerCase().includes("rear")
+              ) ||
+              devices[1] ||
+              devices[0];
+
+            const qrBoxSize = Math.min(rect.width, rect.height) - 40;
+            console.log("[QR] cámara seleccionada:", backCamera);
+
             // @ts-ignore
             const qr = new Html5Qrcode("reader");
 
             console.log("[QR] iniciando cámara");
 
             qr.start(
-              devices[0].id,
-              { fps: 10, qrbox: 250 },
+              backCamera.id,
+              { fps: 10, qrbox: qrBoxSize },
               (decodedText: string) => {
                 console.log("[QR] QR detectado:", decodedText);
 
