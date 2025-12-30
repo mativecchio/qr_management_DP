@@ -7,7 +7,7 @@ const QrScanner: React.FC = () => {
     console.log("[QR] useEffect iniciado");
 
     Streamlit.setComponentReady();
-    Streamlit.setFrameHeight(320);
+    Streamlit.setFrameHeight(500);
     console.log("[QR] componentReady + frameHeight inicial");
 
     const start = () => {
@@ -27,7 +27,7 @@ const QrScanner: React.FC = () => {
         setTimeout(start, 300);
         return;
       }
-      Streamlit.setFrameHeight(rect.height + 20);
+      Streamlit.setFrameHeight(rect.height + 200);
       setHeight(rect.height.toString());
       console.log("[QR] creando script html5-qrcode");
 
@@ -63,9 +63,9 @@ const QrScanner: React.FC = () => {
                 Streamlit.setComponentValue(decodedText);
                 console.log("[QR] valor enviado a Streamlit");
 
-                // qr.stop().then(() => {
-                //   console.log("[QR] cámara detenida");
-                // });
+                qr.stop().then(() => {
+                  console.log("[QR] cámara detenida");
+                });
               }
             ).catch((err: any) => {
               console.error("[QR] error al iniciar cámara", err);
