@@ -36,37 +36,56 @@ def generar_pdf_ticket(codigo, nombre, qr_path=None, template_path="template/tem
 
     if qr_path is None or not os.path.exists(qr_path):
         qr_img = qrcode.make(codigo)
-        qr_temp = "temp_qr.png"
-        qr_img.save(qr_temp)
+        qr_temp = "temp_qr.jpg"
+        qr_img.save(
+            qr_temp,
+            format="JPEG",
+            quality=40,
+            optimize=True,
+            subsampling=2
+        )
+
         qr_path = qr_temp
-        log(f"QR temporal generado: {qr_temp}")
+        log(f"QR temporal generado comprimido: {qr_temp}")
 
     page_width, page_height = page.rect.width, page.rect.height
 
-    qr_size = 180
+    qr_size = 140
     qr_margin_x = 60
     qr_margin_y = 130
-    qr_rect = fitz.Rect(qr_margin_x, page_height - qr_margin_y - qr_size,
-                        qr_margin_x + qr_size, page_height - qr_margin_y)
+
+    qr_rect = fitz.Rect(
+        qr_margin_x,
+        page_height - qr_margin_y - qr_size,
+        qr_margin_x + qr_size,
+        page_height - qr_margin_y
+    )
+
     page.add_redact_annot(qr_rect, fill=(1, 1, 1))
     page.apply_redactions()
     page.insert_image(qr_rect, filename=qr_path)
 
-    new_text = f"#{codigo}"
-    text_margin_x = 250
-    text_margin_y = 130
-    page.insert_text((page_width - text_margin_x, page_height - text_margin_y),
-                     new_text, fontsize=17, color=(1, 1, 1), fontname="helv")
+    page.insert_text(
+        (page_width - 250, page_height - 130),
+        f"#{codigo}",
+        fontsize=17,
+        color=(1, 1, 1),
+        fontname="helv"
+    )
 
     output_path = os.path.join(OUTPUT_FOLDER, f"{codigo}.pdf")
-    doc.save(output_path)
+    doc.save(
+        output_path,
+        garbage=4,
+        deflate=True,
+        clean=True
+    )
     doc.close()
 
-    if qr_path == "temp_qr.png":
+    if qr_path == "temp_qr.jpg":
         os.remove(qr_path)
-        log("QR temporal eliminado")
 
-    log(f"PDF generado: {output_path}")
+    log(f"PDF optimizado generado: {output_path}")
     return output_path
 
 # --- Cargar códigos válidos ---
@@ -148,8 +167,18 @@ with st.form("generar_qr"):
                 log(f"QR generado y mostrado en UI")
 
                 pdf_path = generar_pdf_ticket(code, nombre, qr_path=qr_path)
-                st.success(f"🎟️ PDF tipo ticket generado: {pdf_path}")
-                st.markdown(f"[Descargar PDF]({pdf_path})")
+                st.session_state["ultimo_pdf"] = pdf_path
+                st.success("🎟️ Ticket generado correctamente")
+               
+if "ultimo_pdf" in st.session_state and st.session_state["ultimo_pdf"]:
+    with open(st.session_state["ultimo_pdf"], "rb") as f:
+        st.download_button(
+            label="⬇️ Descargar PDF",
+            data=f,
+            file_name=os.path.basename(st.session_state["ultimo_pdf"]),
+            mime="application/pdf"
+        )
+
 
 
 st.title("🎫 Gestor de Entradas QR")
