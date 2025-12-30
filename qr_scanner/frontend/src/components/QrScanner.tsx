@@ -59,7 +59,7 @@ const QrScanner: React.FC = () => {
               devices[1] ||
               devices[0];
 
-            const qrBoxSize = Math.min(rect.width, rect.height) - 40;
+            const qrBoxSize = Math.min(rect.width, rect.height) - 20;
             console.log("[QR] cámara seleccionada:", backCamera);
 
             // @ts-ignore
