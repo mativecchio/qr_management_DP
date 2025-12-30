@@ -9,7 +9,7 @@ const QrScanner: React.FC = () => {
     console.log("[QR] useEffect iniciado");
 
     Streamlit.setComponentReady();
-    Streamlit.setFrameHeight(500);
+    Streamlit.setFrameHeight(480);
     console.log("[QR] componentReady + frameHeight inicial");
 
     const start = () => {
@@ -30,7 +30,7 @@ const QrScanner: React.FC = () => {
         return;
       }
 
-      Streamlit.setFrameHeight(rect.height + 200);
+      Streamlit.setFrameHeight(rect.height + 180);
       setHeight(Math.max(rect.height, MIN_HEIGHT).toString());
       console.log("[QR] creando script html5-qrcode");
 
