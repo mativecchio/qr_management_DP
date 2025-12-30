@@ -106,50 +106,50 @@ if "qr_message_type" not in st.session_state:
     st.session_state["qr_message_type"] = None  # "success" | "error"
 
 
-# # --- Generar QR ---
-# st.subheader("Generar QR para un invitado")
+# --- Generar QR ---
+st.subheader("Generar QR para un invitado")
 
 
-# with st.form("generar_qr"):
-#     nombre = st.text_input("Nombre del invitado")
-#     identificador = st.text_input("Número identificativo / ID")
-#     submit_gen = st.form_submit_button("Generar QR")
+with st.form("generar_qr"):
+    nombre = st.text_input("Nombre del invitado")
+    identificador = st.text_input("Número identificativo / ID")
+    submit_gen = st.form_submit_button("Generar QR")
 
-#     if submit_gen:
-#         log("Formulario de generación enviado")
-#         if not nombre or not identificador:
-#             st.error("Debes ingresar nombre y número identificativo")
-#             log("Error: Falta nombre o ID")
-#         else:
-#             code = f"{identificador}-{nombre.replace(' ','')}"
-#             qr_path = os.path.join(QR_FOLDER, f"{code}.png")
-#             log(f"Generando QR: {code}")
+    if submit_gen:
+        log("Formulario de generación enviado")
+        if not nombre or not identificador:
+            st.error("Debes ingresar nombre y número identificativo")
+            log("Error: Falta nombre o ID")
+        else:
+            code = f"{identificador}-{nombre.replace(' ','')}"
+            qr_path = os.path.join(QR_FOLDER, f"{code}.png")
+            log(f"Generando QR: {code}")
 
-#             if code in validos:
-#                 st.warning(f"⚠️ Este código ya existe: {code}")
-#                 log(f"Advertencia: Código ya existe")
-#             else:
-#                 qr = qrcode.QRCode(box_size=10, border=2)
-#                 qr.add_data(code)
-#                 qr.make(fit=True)
-#                 img = qr.make_image(fill_color="black", back_color="white")
-#                 img.save(qr_path)
-#                 log(f"QR guardado en {qr_path}")
+            if code in validos:
+                st.warning(f"⚠️ Este código ya existe: {code}")
+                log(f"Advertencia: Código ya existe")
+            else:
+                qr = qrcode.QRCode(box_size=10, border=2)
+                qr.add_data(code)
+                qr.make(fit=True)
+                img = qr.make_image(fill_color="black", back_color="white")
+                img.save(qr_path)
+                log(f"QR guardado en {qr_path}")
 
-#                 with open(VALID_FILE, "a") as f:
-#                     f.write(f"{code}|{nombre}\n")
+                with open(VALID_FILE, "a") as f:
+                    f.write(f"{code}|{nombre}\n")
 
-#                 validos[code] = {"name": nombre, "used": False}
-#                 st.success(f"✅ QR generado: {code}")
-#                 buf = io.BytesIO()
-#                 img.save(buf, format="PNG")
-#                 buf.seek(0)
-#                 st.image(buf, caption=f"QR de {nombre}", width=200)
-#                 log(f"QR generado y mostrado en UI")
+                validos[code] = {"name": nombre, "used": False}
+                st.success(f"✅ QR generado: {code}")
+                buf = io.BytesIO()
+                img.save(buf, format="PNG")
+                buf.seek(0)
+                st.image(buf, caption=f"QR de {nombre}", width=200)
+                log(f"QR generado y mostrado en UI")
 
-#                 pdf_path = generar_pdf_ticket(code, nombre, qr_path=qr_path)
-#                 st.success(f"🎟️ PDF tipo ticket generado: {pdf_path}")
-#                 st.markdown(f"[Descargar PDF]({pdf_path})")
+                pdf_path = generar_pdf_ticket(code, nombre, qr_path=qr_path)
+                st.success(f"🎟️ PDF tipo ticket generado: {pdf_path}")
+                st.markdown(f"[Descargar PDF]({pdf_path})")
 
 
 st.title("🎫 Gestor de Entradas QR")
